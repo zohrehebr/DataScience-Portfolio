@@ -2,7 +2,7 @@ import streamlit as st
 from PIL import Image
 st.markdown("# Weekly Scrap Rate")
 img = Image.open("logo.png")
-st.image(img,width=200, class= "center")
+st.image(img,width=200)
 st.markdown("**Weekly charts and number of saved bottles.....** ")
 st.markdown("The data presented are **")
 if st.button("MLX4_2022-12-08_2022-12-15.png"):
